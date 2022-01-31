@@ -1,0 +1,205 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+body {
+    text-align: center;
+    background: url("../imagenes_video/fondo.jpg");
+    font-family:  Arial, sans-serif;
+    color:  white;
+}
+
+#agrupar {
+     width: 1000px;
+     margin: 15px  auto;
+     box-sizing: border-box;
+}
+
+footer h2, nav a
+{
+    font-family: Arial, serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+/*cabecera*/
+header h1
+{
+    font-family: serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    border-radius: 15px;
+}
+
+header  h2
+{
+    font-family: serif;
+    font-size: 2em;
+    color: #0916B4;
+}
+
+header h3
+{
+    font-family: serif;
+    font-size: 1.5em;
+    color: #3A44C3;
+}
+
+
+header h4
+{
+    font-family: serif;
+    font-size: 1.2em;
+    color: #6B73D2;
+}
+
+
+#cabecera
+{   
+    padding: 20px;
+    border-radius: 10px;
+    border: solid 3px;
+    border-color: #7A95E4;
+    box-shadow: 0px 4px 4px #1C1A19;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+
+/* Navegación */
+
+nav
+{
+    padding: 5px 15px;
+   
+}
+
+
+nav li
+{
+    display: block;
+    list-style: none;
+    padding: 5px;
+   
+}
+
+
+nav a
+{
+    font-size: 1.3em;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
+
+nav a:hover
+{
+    color: rgb(255, 0, 0);
+    
+}
+
+nav li a:hover 
+{
+     color: rgb(255, 0, 0);
+}       
+
+nav li ul {
+    display: none;
+    position:absolute;
+    width: 500px;
+    background-color:#7A95E4;
+}
+
+nav li:hover ul {
+    display: inline-block;
+    text-align: center;
+
+}
+            
+nav li ul li {
+    position:relative;
+                
+}
+
+
+/* Cuerpo */
+
+section 
+{
+    float: left;
+    width: 1000px; 
+    margin: auto;
+    box-sizing: border-box;
+} 
+
+article
+{
+    display: inline-block;
+    
+}
+
+article
+{
+    width: 1000px; 
+    border: 5px solid #4483F7;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url("../imagenes_video/fondo_seccion.jpg");
+}
+  
+
+article p
+{
+    font-size: 18px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+}
+
+img
+{
+    margin: auto;
+    position: relative;
+}
+
+table
+{
+    border: 5px solid black;
+    margin: auto;
+    width: 600px;
+    height: 300px;
+}
+
+table tr 
+{
+    border-bottom: 3px solid black;
+}
+
+table td 
+{
+    border: 1px solid black;
+    
+}
+
+table td p
+{
+    text-align: center;
+}
+
+/* Pie de página */
+
+footer
+{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid #7A95E4; 
+    font-size: 15px;
+    font-family: sans-serif;
+}

@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="../css/estilo_imprimir.css" media="print">
+	<title>MAQUETACION WEB</title>
+
+	<style type="text/css">
+		
+		ol{
+			color: black;
+			text-align: justify;
+			font-size: 18px;
+		}
+		ol li{
+			color: black;
+			text-align: justify;
+			padding-left: 10px;
+			border-spacing: 2px;
+			margin-left: 20px;
+
+		}
+
+
+	</style>
+	
+</head>
+
+<body>
+
+	<a href="https://moodle.cifpaviles.net/"><img src="../imagenes_video/cifp_aviles.png" style="position: absolute; clear: both; width: 200px; left: 0px; top: 10px;" ></a>
+
+	<a href="https://www.educastur.es/09990/identidad-digital/cuenta-365"><img src="../imagenes_video/educastur.png" style="position: absolute; clear: both; width: 150px; right: 0px; top: 10px;"></a>
+
+	<div id="agrupar">
+
+		<header id="cabecera">
+
+			<h1><strong>MAQUETACIÓN WEB</strong></h1>
+
+		</header>
+		<nav>
+            <ul>
+            	<li><a href="#" style="color: rgb(255, 255, 255); font-size: 1.5em;"><strong>MENÚ</strong></a>
+            		<ul>
+            			<li><a href="../index.html">PORTADA</a></li>
+            			<br/>
+		                <li><a href="../portfolio/accesibilidad.html">ACCESIBILIDAD WEB</a></li>
+		                <br/>
+		                <li><a href="../portfolio/usabilidad.html">USABILIDAD WEB</a></li>
+		                <br/>
+		                <li><a href="../portfolio/derechos.html">DERECHOS DE LA PROPIEDAD INTELECTUAL</a></li>
+		                <br/>
+		                <li><a href="../portfolio/imagenes.html">IMÁGENES PARA LA WEB</a></li>
+	            	</ul>
+                </li>
+            </ul>
+    	</nav>
+    	<br/>
+
+    	<header>
+    		<h1 style="background-color: #7A95E4;"><strong>TEMA 1 - PLANIFICACIÓN DE INTERFACES WEB</strong></h1>
+    	</header>
+
+    	<br/>
+
+    	<section>
+    		<article>
+    			<header>
+    				<br/>
+    				<h2>1 - Elementos básicos de una interfaz</h2>
+    				<br/>
+    				<h3>1-1 - El color</h3>
+    				<br/>
+    				<h4>Modelo RGB</h4>
+    			</header>
+    				<br/>
+    			<p> 
+    				El modo de color RGB está basado en la suma de los colores lumínicos primarios. A esto se le conoce como síntesis aditiva, donde los colores deben sumarse para conseguir uno nuevo. Esos colores son el Rojo (Red), el Verde (Green) y el Azul (Blue). El color se consigue por espectros de luz y no tinta. Los colores se forman mediante la suma de diferentes luces en sus diferentes longitudes de onda. El color blanco se consigue mediante la suma de los tres colores a partes iguales con la máxima saturación posible.
+    				<br/>
+    			</p>
+    			<br/>
+    			<img src="../imagenes_video/colores_rgb.png" width="300" height="300">
+    			<br/>
+    			<br/>
+    			<table>
+    				<tr>
+    					<td><p><strong>COLOR<p></strong></td>
+    					<td><p><strong>CODIGO DECIMAL</strong></p></td>
+    					<td><p><strong>CODIGO HEXADECIMAL</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(255, 0, 0);"><p><strong>ROJO</strong></p></td>
+    					<td><p><strong>255,0,0</strong></p></td>
+    					<td><p><strong>#FF0000</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(0, 255, 0);"><p><strong>VERDE</strong></p></td>
+    					<td><p><strong>0,255,0</strong></p></td>
+    					<td><p><strong>#00FF00</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(0, 0, 255);"><p><strong>AZUL</strong></p></td>
+    					<td><p><strong>0,0,255</strong></p></td>
+    					<td><p><strong>#0000FF</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(255, 255, 0);"><p><strong>AMARILLO</strong></p></td>
+    					<td><p><strong>255,255,0</strong></p></td>
+    					<td><p><strong>#FFFF00</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(255, 0, 255);"><p><strong>MAGENTA</strong></p></td>
+    					<td><p><strong>255,0,255</strong></p></td>
+    					<td><p><strong>#FF00FF</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td style="background-color: rgb(0, 255, 255);"><p><strong>CIAN</strong></p></td>
+    					<td><p><strong>0,255,255</strong></p></td>
+    					<td><p><strong>#00FFFF</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td><p><strong>BLANCO</strong></p></td>
+    					<td><p><strong>255,255,255</strong></p></td>
+    					<td><p><strong>#FFFFFF</strong></p></td>
+    				</tr>
+    				<tr>
+    					<td><p><strong>NEGRO</strong></p></td>
+    					<td><p><strong>0,0,0</strong></p></td>
+    					<td><p><strong>#000000</strong></p></td>
+    				</tr>
+    			</table>
+    			
+    			<br/>
+    			<header>
+    				<h4>Modelo HSL</h4>
+    			</header>
+    				<br/>
+    			<p> 
+    				En esta ocasión las siglas no son colores, sino parámetros: Hue (tono), Saturation (saturacion) y Lightness (luminosidad).
+					El modelo HSL se representa gráficamente como un cono doble o un doble hexágono. Los dos vértices en el modelo HSL se corresponden con el blanco y el negro, el ángulo se corresponde con el matiz, la distancia al eje con la saturación y la distancia al eje blanco-negro se corresponde a la luminancia o luminosidad.
+					La matiz representa toda la gama de colores desde 0 a 360º.
+    				<br/>
+    				<br/>
+    			</p>
+    			<img src="../imagenes_video/colores_hsl.jfif" width="300" height="300">
+    				<br/>
+    				<br/>
+
+    			<header>
+    				<h4>Modelo HSV</h4>
+    			</header>
+    				<br/>
+    			<p> 
+    				El modelo HSB (o HSV, como se prefiera) deriva del modelo RGB y representa los colores combinando tres valores: el tono en sí (H), la saturación o cantidad de color (S) y el brillo del mismo (B). Estos valores suelen representarse en un diagrama circular (principal uso de este modelo).
+    				La diferencia entre HSV y HSL es que en HSV la saturación va del color puro al blanco, y en HSL la saturación va del color puro al gris medio, y el tono, en HSV va desde el negro al color, y en HSL va desde el negro al blanco. De ahí que HSL sea el que se utiliza más comúnmente en fotografía. 
+    				<br/>
+    				<br/>
+    			</p>
+    			<img src="../imagenes_video/colores_hsv.png" width="300" height="300">
+    				<br/>
+    				<br/>
+    			<br/>
+    			<header>
+    				<h3>1-2 - La tipografia</h3>
+    				<br/>
+    				<h4>Tipografía Serif</h4>
+    			</header>
+    				<br/>
+    			<p>
+    				Suele utilizarse para  textos largos ya que, la línea imaginaria que crean bajo el texto y que ayuda a guiar al ojo hace que la lectura sea más cómoda que en las tipografías sin remate. Las tipografías Book Antigua, Courier, Garamond, Times New Roman o Garamond  son ejemplos de estilos de letra con remates. 
+    			</p>
+    			<br/>
+    			<header>
+    				<h4>Tipografía Sans Serif</h4>
+    			</header>
+    				<br/>
+    			<p>
+    				La utilización de este tipo de letras es la indicada para visualizaciones en pantalla ya que quedan perfectamente legibles en tamaños pequeños puesto que la pixelación que se produce hace que estas se vean mucho más limpias que las tipografías con remates. Es  decir, en las pantallas es mucho más recomendable utilizar bloques de texto con tipos de letra sin remates.
+    			</p>
+    			<img src="../imagenes_video/tipografias-tipos.png" width="450" height="200">
+    			<br/>
+    			<br/>
+    			<header>
+    				<h4>Unidades de medida</h4>
+    			</header>
+    				
+    					<ol><strong>Unidades absolutas</strong>
+    						<li>mm: milímetros</li>
+    						<li>cm: centímetros.</li>
+    						<li>in: pulgada ("inches", en inglés). Una pulgada equivale a 2.54 centímetros.</li>
+    						<li>pt: puntos. Un punto equivale a 1 /72 de pulgada, es decir, unos 0.35 milímetros.</li>
+    						<li>Punto y cícero. La unidad de medida en la imprenta es el punto, a base del cual se fabrican los tipos y demás material tipográfico. El conjunto de doce puntos se llama cícero, países europeos, y pica, en América.</li>
+    						<li>px: pixel. Es la unidad mínima de resolución de la pantalla. En realidad suele considerársela una unidad absoluta, relativa o híbrida dependiendo del criterio que se analice.</li>
+    					</ol>
+    					<br/>
+    					<ol><strong>Unidades relativas</strong>
+    						<li>Porcentaje (%)</li>
+    						<li>em. El em es una unidad que proviene del diseño tipográfico y equivale al espacio que ocupa el ancho de una letra M ("m" mayúscula) de un determinado cuerpo y alfabeto. </li>
+    					</ol>
+    					<br/>
+    			<header>
+    				<h3>1-3 - Los iconos</h3>
+    			</header>
+    				<p>
+    					Un icono o ícono es, en informática, un pictograma que es utilizado para representar archivos, carpetas, programas, unidades de almacenamiento, etc. en un sistema operativo gráfico. En el uso moderno, el icono puede representar cualquier cosa que los usuarios quieran: cualquier comando o proceso, o cualquier otro indicador.
+    				</p>
+    				<img src="../imagenes_video/iconos.jpg" width="450" height="350">
+    				<br/>
+    		</article>
+    		<article>
+    			<header>
+    				<h2>2 - Estructura de una página web</h2>
+    			</header>
+    				<br/>
+    				<p>Los componentes principales de una página web son:</p>
+						<ol>
+							<li>Cabecera</li>
+							<li>Menú de navegación</li>
+							<li>Cuerpo</li>
+							<li>Pie de pagina</li>
+							<li>Los espacios en blanco</li>
+						</ol>
+					<br/>
+
+					<header>
+    					<h3>2-1 - Cabecera</h3>
+    				</header>
+    				<br/>
+    				<p>La cabecera es la parte superior de la página web. En ella se encuentra la información básica de la empresa o marca y es consistente en todo el sitio, es decir, se repite en cada página de la web que visitamos.</p>
+    				<br/>
+
+    				<header>
+    					<h3>2-2 - Menu de navegacion</h3>
+    				</header>
+    				<br/>
+    				<p>El menú de navegación es la hoja de ruta para navegar tu página web. La lógica detrás de esa premisa es que los visitantes siempre podrán recurrir al menú principal para encontrar lo que buscan. Pero, de hecho, los mejores menús de navegación son los que se mantienen cortos y visualmente llamativos. Se colocan debajo de la cabecera, y suelen ser del tipo migas de pan.</p>
+    				<p>Tipos de menus de navegación</p>
+    					<ol>
+    						<li>Menu de hamburguesa</li>
+    						<li>Menú estándar</li>
+    						<li>Menú desplegable </li>
+    						<li>Megamenu</li>
+    						<li>E-commerce </li>
+       					</ol>
+    				<br/>
+
+    				<header>
+    					<h3>2-3 - Cuerpo</h3>
+					</header>
+    				<br/>
+    				<p>El cuerpo es la parte de la página web donde se presenta al usuario toda la información referente a los contenidos de la página. Ocupa entre el 50-85% de la pagina. 
+					El cuerpo de la página es la parte de la interfaz web que presenta a los usuarios información específica sobre un tema concreto. Por lo tanto, es la parte de la página que la identifica e individualiza frente a las demás de un sitio web. Es importante que tenga espacios en blanco porque eso facilita la búsqueda del usuario y llama la atención del mismo.</p>
+    				<br/>
+
+    				<header>
+    					<h3>2-4 - Pie de la pagina</h3>
+    				</header>
+    				<br/>
+    				<p>El footer o pie de página es la parte inferior de una web y que, normalmente, se encontrará diferenciada del resto (cambios de color, de fuente, imágenes…).
+					En el footer se incluyen con frecuencia enlaces de interés, cajas de suscripción, mapas, enlaces a perfiles sociales, datos de copyright, datos de contacto, menu de navegacion... Suelen ser elementos importantes que queremos que cierren la web y refuercen ideas en el usuario. </p>
+    				<br/>
+
+	    			<header>
+	    				<h3>2-5 - Los espacios en blanco</h3>
+	    			</header>
+	    			<br/>
+	    			<p>Son los espacios entre gráficos, columnas, imágenes, texto, márgenes, y otros elementos. Se usa para suavizar el entorno y transformar una página en algo elegante. También nos recuerda que los diseños más simples son geniales y que no necesitamos crear una pieza llena de texto y elementos gráficos para enviar un mensaje claro y directo.</p>
+	    			<p>Tres elementos a considerar al usar espacios blancos en diseño:</p>
+	    				<ol>
+							<li>Legibilidad</li>
+							<li>Diseño de tono y marca</li>
+							<li>Enfoque y atencion</li>
+						</ol>
+					<br/>
+
+    		</article>
+
+    		<article>
+    			<header>
+    				<h2>3 - Maquetación</h2>
+    			</header>
+    			<br/>
+    			<p>La maquetación web consiste en transformar el diseño de una web en un conjunto de archivos (html, css y js) para que los navegadores web puedan interpretarlos y reproducirlos correctamente en diferentes dispositivos. La maquetación es una fase avanzada del proceso de desarrollo web.</p>
+    			<p>Tips para maquetar una página web</p>
+    				<ol>
+						<li>Realizar bocetos (Wireframe)</li>
+						<li>Emplear Paleta de colores</li>
+						<li>Emplear las etiquetas de HTML5</li>
+						<li>Usar los prefijos para las propiedades de CSS3</li>
+						<li>Comprobar tecnologías HTML5, CSS, SVG</li>
+						<li>Utilizar tipografía para los iconos</li>
+						<li>Documentar el código</li>
+					</ol>
+    		</article>
+
+    		<article>
+    			<header>
+    				<h2>4 - Prototipo Web</h2>
+    			</header>
+    			<br/>
+    			<p>Un prototipo web consiste en un boceto, navegable o no, que permite crear una referencia visual de la estructura de una página web, definiendo al detalle el contenido y su distribución visual, organizando así la información a nivel de página.</p>
+				<p>El desarrollo del prototipo comienza con la definición de los objetivos que se quieren conseguir en la web, y con ellos crear una nueva estructura web, en forma de árbol, en la que se dará nombre a todas las categorías del menú de navegación.</p>
+				<p>Una vez hecho esto, comenzará el diseño de wireframes o bocetos, con el fin de determinar el lugar donde situar los elementos principales de la web, pensando siempre en donde los espera encontrar el usuario.</p>
+				<p>En la fase final se realizará el prototipo navegable de toda la web, donde se verá toda la estructura de navegación, así como el diseño completo. El programador simplemente tendrá que replicarlo a través de código.</p>
+    		</article>
+
+    		<article>
+    			<header>
+    				<h2>5 - Mapa de navegacion</h2>
+    			</header>
+    			<br/>
+    			<p>El mapa de navegación es, básicamente, un gráfico o esquema en forma de árbol que representa la estructura o arquitectura general de un sistema. Es el primer paso para distribuir, organizar y jerarquizar el contenido que se verá en la pantalla de un producto o servicio digital.
+				Lo mejor que podemos decir acerca de esta herramienta es que brinda una representación visual explícita de los contenidos.</p>
+				<br/>
+				<img src="../imagenes_video/mapa_navegacion.png" width="600" height="500">
+    		</article>
+
+    		<article>
+    			<header>
+    				<h2>6 - Guías de estilo</h2>
+    			</header>
+    			<br/>
+    			<p>Una guía de estilo es una colección de elementos prediseñados gráficos y reglas que diseñadores o desarrolladores web deben seguir para asegurarse que partes separadas del sitio web sean consistentes y creen una experiencia cohesiva al final.</p>
+    			<p>Pasos para crear una guía de estilo de diseño web:</p>
+    				<ol>
+    					<li>Estudiar la marca</li>
+    					<li>Definir la tipografia</li>
+    					<li>Paleta de colores</li>
+    					<li>Iconografía</li>
+    					<li>Imágenes</li>
+    					<li>Formas</li>
+    					<li>Espaciado</li>
+    				</ol>
+    		</article>
+
+    		<article>
+    			<header>
+    				<h2>7 - Interacción persona-ordenador</h2>
+    			</header>
+    			<br/>
+    			<p>Es la disciplina dedicada a estudiar cómo se produce la interacción entre las personas y los sistemas informáticos para tratar de mejorar esta relación por medio del diseño gráfico.</p>
+    			<p>Su objetivo principal es incrementar la productividad de los equipos y minimizar los errores al tiempo que se dota a los usuarios de una experiencia segura, confortable y satisfactoria.</p>
+    			<br/>
+    			<img src="../imagenes_video/persona_ordenador.jpg" width="450" height="300">
+    		</article>
+
+    	</section>
+
+    	<footer>
+	 		<h3>Diseño de Interfaces Web  2ºDAW  2021/2022</h3>
+	 		<h3>Carlos Estrada García</h3>
+ 		</footer>
+ 		
+	</div>
+
+</body>
+</html>
