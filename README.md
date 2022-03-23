@@ -9,7 +9,12 @@ La aplicación contenida en el repositorio sirve para visualizar información so
 La tecnología implementada es *Java*
 
 ## Listado de ficheros
-El listado de archivos es 1. *README.MD*, *Reserva*, *Ida*, *IdayVuelta* y *AppReserva*
+El listado de archivos es: 
+1. *README.MD*
+2. *Reserva*
+3. *Ida*
+4. *IdayVuelta*
+5. *AppReserva*
 
 ## Finalidad del repositorio
 La finalidad del repositorio es organizar, preservar y difundir en el modo de acceso abierto recursos científicos y académicos de las instituciones.
