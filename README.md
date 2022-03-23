@@ -9,13 +9,13 @@ La aplicación contenida en el repositorio sirve para visualizar información so
 La tecnología implementada es *Java*
 
 ## Listado de ficheros
-El listado de archivos es *readme.md* y *README.MD*
+El listado de archivos es *README.MD*, *Reserva*, *Ida*, *IdayVuelta* y *AppReserva*
 
 ## Finalidad del repositorio
 La finalidad del es organizar, preservar y difundir en el modo acceso abierto recursos científicos y académicos de las instituciones.
 
 ## Imagen
-![Repositorio](https://user-images.githubusercontent.com/98738717/159258159-122578e7-dba1-40e3-a8bd-45f09a632170.PNG)
+![image](https://user-images.githubusercontent.com/98738717/159670525-b69b081f-c105-4d2b-b714-88e700710f56.png)
 
 ## Enlace
 https://es.wikipedia.org/wiki/Empresa_puntocom
