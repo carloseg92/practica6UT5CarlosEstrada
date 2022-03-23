@@ -20,7 +20,7 @@ El listado de archivos es:
 La finalidad del repositorio es organizar, preservar y difundir en el modo de acceso abierto recursos científicos y académicos de las instituciones.
 
 ## Imagen
-![image](https://user-images.githubusercontent.com/98738717/159670525-b69b081f-c105-4d2b-b714-88e700710f56.png)
+![image](https://user-images.githubusercontent.com/98738717/159674766-09f927fe-ae06-462e-9c3b-d40a603c55e5.png)
 
 ## Enlace
 https://es.wikipedia.org/wiki/Empresa_puntocom
